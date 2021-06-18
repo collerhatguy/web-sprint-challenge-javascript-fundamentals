@@ -92,7 +92,7 @@ describe('lowPopulationAnimals', ()=>{
 });
 
 describe('USApop', ()=>{
-    it('USApop returns an array', ()=>{
+    it('USApop returns the total', ()=>{
         expect(functions.USApop(zooAnimals)).toEqual(56);
     })
 });
